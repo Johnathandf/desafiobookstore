@@ -1,0 +1,25 @@
+{
+  "name": "desafio-bookstore-api-cypress",
+  "version": "1.0.0",
+  "description": "Automação de testes de API da Book Store (DemoQA) com Cypress",
+  "private": true,
+  "scripts": {
+    "cy:open": "cypress open --e2e",
+    "cy:run": "cypress run --e2e",
+    "test": "cypress run --e2e",
+    "test:report": "cypress run --e2e"
+  },
+  "keywords": [
+    "cypress",
+    "api-testing",
+    "bookstore",
+    "qa-automation"
+  ],
+  "license": "MIT",
+  "devDependencies": {
+    "cypress": "^14.5.4",
+    "cypress-mochawesome-reporter": "^5.0.0",
+    "cypress-real-events": "^1.15.1",
+    "dotenv": "^18.0.7"
+  }
+}
